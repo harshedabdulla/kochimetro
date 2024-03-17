@@ -59,6 +59,35 @@ const Hourly = () => {
           </div>
 
           {/* The rest of your component */}
+          <div className="flex  mt-8 px-4">
+            {/* Load section graph card */}
+            <div className="bg-white rounded-lg  w-2/3 p-4">
+              <h2 className="text-xl font-semibold mb-4">PHPDT Graph</h2>
+              {/* Fetch and display the load section graph here */}
+            </div>
+
+            {/* Pie chart card */}
+            <div className="bg-white rounded-lg w-1/3 p-4 ml-4">
+              <h2 className="text-xl font-semibold mb-4">Pie chart</h2>
+              {/* Fetch and display the pie chart here */}
+            </div>
+          </div>
+
+          <div className="flex mt-8 px-4">
+            {/* OD matrix card */}
+            <div className="bg-white rounded-lg w-2/3 p-4">
+              <h2 className="text-xl font-semibold mb-4">OD Matrix</h2>
+              {/* Fetch and display the OD matrix here */}
+            </div>
+
+            {/* Load section 2 graph card */}
+            <div className="bg-white rounded-lg  w-1/3 p-4 ml-4">
+              <h2 className="text-xl font-semibold mb-4">
+                Load Section 2 Graph
+              </h2>
+              {/* Fetch and display the load section 2 graph here */}
+            </div>
+          </div>
         </div>
       </div>
     </div>

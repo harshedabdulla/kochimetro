@@ -31,10 +31,10 @@ const Sidebar = () => {
           <ul className="space-y-2 font-medium">
             <li className="!my-10">
               <div className="flex flex-col items-center">
-                <span className="flex items-center justify-center rounded-full group">
+                <span className="flex items-center justify-center h-24 w-24  rounded-full group">
                   <img src={Logo} alt="NATPAC" />
                 </span>
-                <span className="text-3xl font-bold">NATPAC</span>
+                <span className="text-3xl font-bold text-grey-700">NATPAC</span>
               </div>
             </li>
             <li className="!my-10">
