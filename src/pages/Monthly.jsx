@@ -41,15 +41,6 @@ const Monthly = () => {
               className="mt-1 block w-full px-3 py-2 border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
               value={selectedMonth}
               onChange={handleMonthChange}
-              style={{
-                background:
-                  'linear-gradient(to right, #b38a6a, #c8ff98, #8cb36a, #bd98ff)',
-                color: 'white',
-                border: 'none',
-                outline: 'none',
-                boxShadow:
-                  '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)',
-              }}
             />
 
             {selectedMonth && (

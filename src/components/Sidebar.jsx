@@ -5,6 +5,7 @@ import DashboardRoundedIcon from '@mui/icons-material/DashboardRounded'
 import SubwayTwoToneIcon from '@mui/icons-material/SubwayTwoTone'
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded'
 import { Link } from 'react-router-dom'
+import Logo from '../assets/logo.png'
 
 const Sidebar = () => {
   const path = window.location.pathname.split('/')[1] // This might need to be adjusted depending on your routing setup
@@ -30,10 +31,10 @@ const Sidebar = () => {
           <ul className="space-y-2 font-medium">
             <li className="!my-10">
               <div className="flex flex-col items-center">
-                <span className="flex items-center justify-center p-2 rounded-full bg-blue-500 group text-xl">
-                  <SubwayTwoToneIcon />
+                <span className="flex items-center justify-center rounded-full group">
+                  <img src={Logo} alt="NATPAC" />
                 </span>
-                <span className="mt-2 text-3xl font-bold">NATPAC</span>
+                <span className="text-3xl font-bold">NATPAC</span>
               </div>
             </li>
             <li className="!my-10">
